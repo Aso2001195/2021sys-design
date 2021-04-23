@@ -1,7 +1,7 @@
 '''uml
 @startuml
 start
-:weather=1;
+:weather=天気情報;
 
 if(weather=0)then(true)
 :快晴です;
