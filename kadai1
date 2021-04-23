@@ -1,6 +1,5 @@
 ```uml
 @startuml
-@start
 start
 
 :体力=10;
