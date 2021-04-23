@@ -1,4 +1,4 @@
-'''uml
+```uml
 @startuml
 start
 :weather=天気情報;
