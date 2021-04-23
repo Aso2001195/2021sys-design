@@ -6,7 +6,7 @@ start
 
 if(体力<=20)then(true)
 :宿屋に泊まる;
-else 
+else (false)
 :頑張ってレベル上げる;
 endif
 
