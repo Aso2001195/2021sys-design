@@ -9,6 +9,7 @@ alt 商品の在庫有
 webサーバー->ユーザー:購入情報の提示
 else 
 webサーバー->ユーザー:完売と表示
+end
 deactivate ユーザー
 @enduml
 ```
