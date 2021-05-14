@@ -24,6 +24,6 @@ opt 購入確定
   end
   end
   end
-deactivatけe ユーザー
+deactivate ユーザー
 @enduml
 ```
