@@ -7,6 +7,8 @@ DBサーバー->webサーバー:一致した商品情報
 activate ユーザー
 alt 商品の在庫有
 webサーバー->ユーザー:購入情報の提示
+else 
+webサーバー->ユーザー:完売と表示
 deactivate ユーザー
 @enduml
 ```
