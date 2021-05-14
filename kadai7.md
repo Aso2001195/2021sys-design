@@ -1,5 +1,5 @@
 ```uml
-@start
+@startuml
 ユーザー->webサイト:商品取り込み
-@end
+@enduml
 ```
