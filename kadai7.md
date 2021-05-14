@@ -23,6 +23,7 @@ opt 購入確定
   webサーバー->ユーザー:承認エラーが起きたと表示
   end
   end
+  webサーバー->ユーザー:商品到着予定を表示
   end
 deactivate ユーザー
 @enduml
