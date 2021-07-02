@@ -13,4 +13,8 @@ d_purchase_detail
 |------|-------|-|-|-|
 |detail_id|bigint(20)|〇|〇||
 |order_id|bigint(20)|〇|〇|〇|
+|item_code|int(11)||〇||
+|price|int(11)||〇||
+|num|int(11)||〇||
+
 
