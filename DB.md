@@ -28,3 +28,10 @@ m_customers
 |mail|varchar(100)||〇||
 |del_flag|int(11)||||
 |reg_date|date||〇||
+
+m_category
+|属性名|型|PK|NN|FK|
+|------|-------|-|-|-|
+|category_id|int(11)|〇|〇||
+|name|varchar(20)||〇||
+|reg_date|date||〇||
