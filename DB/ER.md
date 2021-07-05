@@ -1,6 +1,6 @@
 ```startuml
 @startuml
-!define MASTER_MARK_COLOR Coral
+!define MASTER_MARK_COLOR Mediumpurple
 !define TRANSACTION_MARK_COLOR Seagreen
 !define MAIN_ENTITY #MintCream-MistyRose
 skinparam class {
