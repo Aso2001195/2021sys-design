@@ -1,7 +1,7 @@
 ```startuml
 @startuml
 !define MASTER_MARK_COLOR Coral
-!define TRANSACTION_MARK_COLOR DeepSkyBlue
+!define TRANSACTION_MARK_COLOR Royalblue
 !define MAIN_ENTITY #MintCream-MistyRose
 skinparam class {
     '図の背景
