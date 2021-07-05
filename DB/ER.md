@@ -38,6 +38,17 @@ entity "顧客マスタ" as customer<m_customers><<M,MASTER_MARK_COLOR>> {
         price
         num
     }
+    entity "商品マスタ" as items <m_items> <<M,MASTER_MARK_COLOR>> {
+        + item_code [PK]
+        --
+        item_name
+        price
+        # category_id [FK]
+        image
+        detail
+        del_flag
+        reg_date
+    }
  }
 @enduml
 ```
