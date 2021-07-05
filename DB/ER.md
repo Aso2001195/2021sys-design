@@ -12,8 +12,7 @@ skinparam class {
     ArrowColor Black
 }
 package "ECサイト" as target_system {
-entity "顧客マスタ" as customer<m_customers>
-<<M,MASTER_MARK_COLOR>> {
+entity "顧客マスタ" as customer<m_customers><<M,MASTER_MARK_COLOR>> {
   + customer_code[PK]
   --
   pass
@@ -24,6 +23,6 @@ entity "顧客マスタ" as customer<m_customers>
   del_flag
   reg_date
   }
-  }
+ 
 @enduml
 ```
