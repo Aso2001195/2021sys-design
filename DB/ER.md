@@ -24,5 +24,6 @@ entity "顧客マスタ" as customer<m_customers>
   del_flag
   reg_date
   }
+  }
 @enduml
 ```
