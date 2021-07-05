@@ -1,6 +1,7 @@
 ```startuml
 @startuml
 !define MASTER_MARK_COLOR Orange 
+!define MAIN_ENTITY #MintCream-MistyRose
 skinparam class {
     '図の背景
     BackgroundColor Snow
