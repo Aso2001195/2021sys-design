@@ -30,7 +30,7 @@ entity "顧客マスタ" as customer<m_customers><<M,MASTER_MARK_COLOR>> {
         purchase_date
         total_price
     }
-    entity "購入詳細テーブル" as order_detail <d_purchase_detail> <<T,TRANSACTION_MARK_COLOR>> MAIN_ENTITY {
+    entity "購入詳細テーブル" as detail <d_purchase_detail> <<T,TRANSACTION_MARK_COLOR>> MAIN_ENTITY {
         + order_id   [PK]
         + detail_id  [PK]
         --
@@ -57,8 +57,8 @@ entity "顧客マスタ" as customer<m_customers><<M,MASTER_MARK_COLOR>> {
     }
  }
  customer       |o-ri-o{     order
-order          ||-ri-|{     order_detail
-order_detail    }-do-||     items
+order          ||-ri-|{     detail
+detail    }-do-||     items
 items          }o-le-||     category
 @enduml
 ```
