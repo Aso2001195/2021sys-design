@@ -36,8 +36,9 @@ m_category
 |name|varchar(20)||〇||
 |reg_date|date||〇||
 
-m_category
-|属性名|型|PK|NN|FK|
+m_items
+|属性名(カラム名)|型|PK|NN|FK|
+|:---|:---|:---|:---:|:---:|
 |item_code|int(11)|〇|〇||
 |item_name|varchar(50)||〇||
 |price|int(11)||〇||
