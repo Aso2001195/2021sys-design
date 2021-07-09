@@ -1,9 +1,9 @@
 # DB定義書
 ## ER図
 [ER図はこちら](https://github.com/Aso2001195/2021sys-design/blob/main/DB/ER.md　"ER図はこちら")
-## データベース詳細
 
-d_purchase
+## データベース詳細
+### 購入テーブル d_purchase
 |属性名|型|PK|NN|FK|
 |------|-------|-|-|-|
 |order_id|bigint(20)|〇|〇||
