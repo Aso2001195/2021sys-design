@@ -13,3 +13,11 @@ area_table
 |area_id|bigint(20)|〇|〇||
 |area_name|varchar(50)||〇||
 |country_id|int(3)||〇|〇|
+
+pamphlet_table
+|属性名|型|PK|NN|FK|
+|------|-------|-|-|-|
+|pamphlet_id|bigint(23)|〇|〇||
+|country_id|int(3)||〇|〇|
+|area_id|bigint(20)||〇|〇|
+|purchas_date|date||〇||
