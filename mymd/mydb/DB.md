@@ -1,0 +1,15 @@
+## データベース詳細
+
+country_table
+|属性名|型|PK|NN|FK|
+|------|-------|-|-|-|
+|country_id|int(3)|〇|〇||
+|country_name|varchar(30)||〇||
+
+
+area_table
+|属性名|型|PK|NN|FK|
+|------|-------|-|-|-|
+|area_id|bigint(20)|〇|〇||
+|area_name|varchar(50)||〇||
+|country_id|int(3)||〇|〇|
