@@ -21,3 +21,4 @@ pamphlet_table
 |country_id|int(3)||〇|〇|
 |area_id|bigint(20)||〇|〇|
 |purchas_date|date||〇||
+|delivery_date|date||〇||
