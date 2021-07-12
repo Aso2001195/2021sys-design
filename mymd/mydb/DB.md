@@ -20,6 +20,17 @@ pamphlet_table
 |pamphlet_id|bigint(23)|〇|〇||
 |country_id|int(3)||〇|〇|
 |area_id|bigint(20)||〇|〇|
+|num|int(5)||〇||
 |purchas_date|date||||
 |delivery_date|date||||
 
+airplane_ticket_table
+|属性名|型|PK|NN|FK|
+|------|-------|-|-|-|
+|ticket_id|bigint(50)|〇|〇||
+|country_id|int(3)||〇|〇|
+|area_id|bigint(20)||〇|〇|
+|purchas_date|date||〇||
+|delivery_date|date||〇||
+
+purchase
