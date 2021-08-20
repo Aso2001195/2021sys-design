@@ -41,4 +41,6 @@ order_table
 |customer_code|varchar(50)||〇||
 |purchase_date|date||〇||
 
-Purchase
+purchase
+|属性名|型|PK|NN|FK|
+|------|-------|-|-|-|
